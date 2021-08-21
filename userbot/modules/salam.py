@@ -9,7 +9,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^P(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦 𝐤𝐚𝐮𝐦 𝐤𝐮𝐬𝐚𝐦 𝐟𝐚𝐧𝐝𝐢 𝐝𝐚𝐭𝐚𝐧𝐠 𝐧𝐢𝐡 𝐲𝐡𝐚𝐡𝐚𝐡𝐚...")
+    await typew.edit("𝐀𝐬𝐬𝐚𝐥𝐚𝐦𝐮'𝐚𝐥𝐚𝐢𝐤𝐮𝐦 𝐤𝐚𝐮𝐦...")
 
 
 @register(outgoing=True, pattern='^.atg(?: |$)(.*)')
