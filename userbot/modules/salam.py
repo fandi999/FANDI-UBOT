@@ -99,7 +99,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^Z(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**𝐅𝐚𝐧𝐝𝐢 𝐝𝐚𝐭𝐚𝐧𝐠 𝐠𝐜 𝐥𝐮 𝐠𝐚𝐤 𝐚𝐦𝐚𝐧 𝐤𝐚𝐰𝐚𝐧 𝐲𝐚𝐡𝐚𝐡𝐚𝐡𝐚𝐡𝐚...**")
+    await typew.edit("**gua datang gc ampas lu gak aman kontol...**")
 
 
 @register(outgoing=True, pattern='^H(?: |$)(.*)')
